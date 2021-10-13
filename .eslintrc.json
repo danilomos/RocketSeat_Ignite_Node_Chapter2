@@ -77,7 +77,7 @@
         ]
       }
     ],
-    "prettier/prettier": "error"
+    "prettier/prettier": "warn"
   },
   "settings": {
     "import/resolver": {
