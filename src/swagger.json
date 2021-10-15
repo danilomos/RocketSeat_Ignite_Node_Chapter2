@@ -56,7 +56,7 @@
                     "200": {
                         "description": "Success",
                         "content": {
-                            "apllication/json": {
+                            "application/json": {
                                 "type": "array",
                                 "itens": {
                                     "type": "object",
