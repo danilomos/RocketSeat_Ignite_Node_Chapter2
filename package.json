@@ -6,7 +6,8 @@
     "author": "Danilo Moreira da Silva <xliudanilox@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+        "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+        "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^4.33.0",

@@ -1,7 +1,7 @@
-import csvParse from 'csv-parse';
-import fs from 'fs';
+import csvParse from "csv-parse";
+import fs from "fs";
 
-import { ICategoriesRepository } from '../../repositories/ICategoriesReposity';
+import { ICategoriesRepository } from "../../repositories/ICategoriesReposity";
 
 interface IImportCategory {
     name: string;
@@ -20,17 +20,17 @@ class ImportCategoryUseCase {
             stream.pipe(parseFile);
 
             parseFile
-                .on('data', async line => {
+                .on("data", async line => {
                     console.log(line);
                     const [name, description] = line;
 
                     categories.push({ name, description });
                 })
-                .on('end', () => {
+                .on("end", () => {
                     fs.promises.unlink(file.path);
                     resolve(categories);
                 })
-                .on('error', error => {
+                .on("error", error => {
                     reject(error);
                 });
         });
