@@ -1,1 +1,3 @@
-# RocketSeat_Ignite_Node_Chapter2
+# RocketSeat - Ignite
+Trilha Node
+Chapter: 2, 3, 4
