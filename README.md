@@ -1,3 +1,5 @@
 # RocketSeat - Ignite
+
 Trilha Node
-Chapter: 2, 3, 4
+
+Chapters: 2, 3, 4
