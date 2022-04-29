@@ -2,3 +2,4 @@
 /dist/
 /tmp/
 yarn-error.log
+/yarn.lock
